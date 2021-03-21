@@ -1,6 +1,6 @@
 import React from "react";
 import myLogo from "../myLogo.png";
-
+import Particles from "react-particles-js";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">

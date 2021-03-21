@@ -6,6 +6,8 @@
   --primary-white: #fff;
   --primary-orange: rgb(241, 160, 9);
   --primary-dark: black;
+  --primary-green: rgb(6, 241, 6);
+  --primary-red: red;
 }
 body {
   font-family: "Work Sans", sans-serif;
@@ -44,4 +46,62 @@ nav ul li {
 }
 .navbar-nav > li > a:hover {
   border-bottom: var(--primary-orange) 5px solid !important;
+}
+
+/***  header*/
+
+.header-wrapper {
+  position: relative;
+  background: url(coffee.jpg) no-repeat;
+  height: 90vh;
+  background-size: cover;
+  background-color: cover;
+}
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  z-index: 1;
+}
+.main-info h1 {
+  font-family: "Work Sans", sans-serif;
+  color: var(--primary-dark) !important;
+  font-weight: 900;
+}
+.typed-text {
+  color: var(--primary-white) !important;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.btn-main-offer {
+  border: 5px solid var(--primary-green) !important;
+  padding-top: 2;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border-radius: 5px;
+  font-weight: 900;
+  color: black;
+}
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: var(--primary-green) !important;
+  color: var(--primary-white);
+}
+.tsparticles-canvas-el {
+  position: absolute;
+  top: 0px;
+  width: 100vw;
+  height: 10vh;
+  z-index: 1;
+}
+.navbar {
+  z-index: 2;
 }
