@@ -3,6 +3,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./Components/Navbar";
 import Header from "./Components/Header";
 import Particles from "react-particles-js";
+import { BrowserRouter, Route, router, Switch } from "react-router-dom";
+import About from "./Components/about";
+import Education from "./Components/education";
+
 function App() {
   return (
     <>
@@ -28,6 +32,8 @@ function App() {
       />
       <Navbar />
       <Header />
+      <About />
+      <Education />
     </>
   );
 }

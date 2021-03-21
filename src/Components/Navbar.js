@@ -1,6 +1,8 @@
 import React from "react";
 import myLogo from "../myLogo.png";
-import Particles from "react-particles-js";
+import about from "./about";
+import { Navlink } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
@@ -28,24 +30,24 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#aboutid">
                   About Me
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  How Work
+                <a className="nav-link" href="#edu">
+                  Education
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Portfolio
+                  Projects
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Contacts
+                  Contact Me
                 </a>
               </li>
             </ul>
