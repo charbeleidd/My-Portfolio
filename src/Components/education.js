@@ -15,6 +15,7 @@ const Education = () => {
         English <br />
         French
       </div>
+      <hr className="H" />
     </div>
   );
 };

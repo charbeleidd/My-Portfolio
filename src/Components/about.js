@@ -2,9 +2,9 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="about-wrapper">
+    <div className="about-wrapper" id="aboutid">
       <h1> About Me</h1>
-      <div className="container-paragraph" id="aboutid">
+      <div className="container-paragraph">
         Hello ! my name is Charbel EID ;<br /> I am a student at the Lebanese
         University - Faculty Of Engineering- . <br /> I am passioned about Web
         development. <br /> My goal is to become a professional full stack web
@@ -13,6 +13,7 @@ const About = () => {
         <br /> Python <br />
         HTML/CSS <br /> JavaScript <br /> NodeJs <br /> Rest API <br /> MONGODB{" "}
         <br /> SQLServer <br /> React <br />
+        <hr className="H" />
       </div>
     </div>
   );

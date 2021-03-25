@@ -1,5 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
+import About from "./about";
 function Header() {
   return (
     <div className="header-wrapper">
@@ -12,9 +13,10 @@ function Header() {
           backspeed={5000}
           loop
         />
-        <a href="#" className="btn-main-offer">
-          Contact Me
-        </a>
+
+        <h2 className="btn-main-offer">
+          Personal Email : <br /> charbeleid959@gmail.com
+        </h2>
       </div>
     </div>
   );

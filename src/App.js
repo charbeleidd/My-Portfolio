@@ -6,6 +6,8 @@ import Particles from "react-particles-js";
 import { BrowserRouter, Route, router, Switch } from "react-router-dom";
 import About from "./Components/about";
 import Education from "./Components/education";
+import Projects from "./Components/projects";
+import Contact from "./Components/contact";
 
 function App() {
   return (
@@ -31,9 +33,13 @@ function App() {
         }}
       />
       <Navbar />
-      <Header />
-      <About />
-      <Education />
+      <div className="all">
+        <Header />
+        <About />
+        <Education />
+        <Projects />
+        <Contact />
+      </div>
     </>
   );
 }
